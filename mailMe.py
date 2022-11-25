@@ -1,5 +1,5 @@
 """
-Author: Lin Shaoqing
+Author: Shaoqing & Xiaoma;)
 MIT License
 """
 
@@ -58,3 +58,5 @@ class Mailme:
         server.login(self.from_addr, self.password)
         server.sendmail(self.from_addr, self.to_addr, msg.as_string())
         server.quit()
+
+        
